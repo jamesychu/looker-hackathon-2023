@@ -81,7 +81,7 @@ view: inventory_items_je {
     timeframes: [date, week, month, quarter, year]
     convert_tz: no
     datatype: date
-    sql: ${TABLE}.enry_date ;;
+    sql: ${TABLE}.entry_date ;;
   }
 
   measure: total_credit {
